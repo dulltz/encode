@@ -1,6 +1,6 @@
 {
   "name": "Encode",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Make a string to a code block.",
   "manifest_version": 2,
   "permissions": [
@@ -23,6 +23,9 @@
       ]
     }
   ],
+  "browser_action": {
+    "default_title": "Make selected text to a code block"
+  },
   "commands": {
     "code-block": {
       "suggested_key": {
